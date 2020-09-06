@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import { BasicGrid } from './examples/basic/Basic';
-import { FractionUnitGrid } from './examples/fr-unit-grid/FractionUnitGrid';
-import { RepeatGrid } from './examples/repeat-grid/RepeatGrid';
-import { SpanningItemsGrid } from './examples/spanning-items-grid/SpanningItemsGrid';
+import { BasicGrid } from './examples/01-basic/Basic';
+import { FractionUnitGrid } from './examples/02-fr-unit-grid/FractionUnitGrid';
+import { RepeatGrid } from './examples/03-repeat-grid/RepeatGrid';
+import { SpanningItemsGrid } from './examples/04-spanning-items-grid/SpanningItemsGrid';
 import { Exercise1 } from './exercises/Exercise1/Exercise1';
+import { MinMaxGrid } from './examples/05-min-max-grid/MinMaxGrid';
+import { TemplateAreasGrid } from './examples/06-template-areas-grid/TemplateAreasGrid';
 
 function App() {
   return (
@@ -15,15 +17,19 @@ function App() {
       <main className='main'>
         {/* <BasicGrid style={{
             gridTemplateColumns: '10rem 10rem 10rem 10rem 10rem',
-          }} />
+          }} /> */}
 
-        <FractionUnitGrid />
+        {/* <FractionUnitGrid /> */}
 
-        <RepeatGrid />
+        {/* <RepeatGrid /> */}
 
-        <SpanningItemsGrid /> */}
+        {/* <SpanningItemsGrid /> */}
 
-        <Exercise1 />
+        {/* <Exercise1 /> */}
+
+        {/* <MinMaxGrid /> */}
+
+        <TemplateAreasGrid />
       </main>
     </div>
   );

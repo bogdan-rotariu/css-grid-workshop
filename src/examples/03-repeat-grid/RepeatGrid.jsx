@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicGrid } from '../basic/Basic'
+import { BasicGrid } from '../01-basic/Basic'
 
 export const RepeatGrid = () => {
     const styles = {

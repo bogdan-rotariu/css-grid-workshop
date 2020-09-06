@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicGrid } from '../../examples/basic/Basic'
+import { BasicGrid } from '../../examples/01-basic/Basic'
 import './Exercise1.styles.scss'
 
 export const Exercise1 = () => {

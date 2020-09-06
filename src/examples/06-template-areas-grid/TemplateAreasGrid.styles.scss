@@ -1,0 +1,22 @@
+.template-areas-grid {
+    grid-template-areas: 
+    "left center right"
+    "left bottom bottom";
+    grid-template-columns: '100px 1fr 100px';
+
+    .grid-item:nth-child(1) {
+        grid-area: center;
+    }
+
+    .grid-item:nth-child(2) {
+        grid-area: left;
+    }
+
+    // .grid-item:nth-child(3) {
+    //     grid-area: right;
+    // }
+
+    .grid-item:nth-child(4) {
+        grid-area: bottom;
+    }
+}
