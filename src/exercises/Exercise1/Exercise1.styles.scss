@@ -1,0 +1,21 @@
+.exercise-1 {
+    // Create a 12 column grid, every other taking twice the free space
+    
+    // Make the grid have 5 explicit rows, each one taking 50px in height
+
+
+    // Make the first grid item start at column 3 and take up 3columns
+    .grid-item-1 {
+        background: var(--primary-color);
+    } 
+
+    // Make the 5th grid item a square (2x2)
+    .grid-item-5 {
+        background: var(--primary-color);
+    }
+
+    // Make the 30th item take fullwidth except last column
+    .grid-item-30 {
+        background: var(--primary-color);
+    }
+}
