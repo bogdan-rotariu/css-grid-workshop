@@ -2,28 +2,33 @@
 
 
 
-                                                ##CSS GRID WORKSHOP WIP
+                                                    CSS GRID WORKSHOP WIP
 
-1. Intro
+### 1. Intro
 The most powerful layout system in CSS! 
+
 2 - dimensional system (both columns and rows)
+
 In comparison to flex - which is mainly 1 - dimensional system (either col or row)
+
 The order of the items doesn't matter (same as flexbox) => making re-arranging items easy (especially for responsive)
 
 Firefox has a better debugging tool for now. it's worth checking it out!
 
 Support from all major browsers (complete support for our project 🔥)
+
+
 Motto: The future is now, old man! 
 -----
 
-FR unit (fraction)
+### FR unit (fraction)
 1fr = is taking the empty space as one fraction
 Similar to %, but it doesn't add up the grid gap space.
 
-Repeat fn
+### Repeat fn
 Takes two args: how many times you would like to, and what would you like to repeat
 
-Spanning
+### Spanning
 Acts on grid children (grid-items). Spans on cols / rows. If the spanning doesn't fit horizontally it will jump on next row.
 
 
