@@ -1,9 +1,15 @@
 .template-areas-grid {
     grid-template-areas: 
     "left center right"
-    "left center right"
     "bottom bottom bottom";
-    grid-template-columns: '100px 1fr 100px';
+    grid-template-columns: 1fr 10fr 1fr;
+
+    @media screen and (max-width: 768px) {
+        grid-template-areas: 
+        "center center center"
+        "left right right"
+        "bottom bottom bottom";
+    }
 
     .grid-item:nth-child(1) {
         grid-area: center;

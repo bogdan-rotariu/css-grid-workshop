@@ -1,0 +1,38 @@
+.alignment-grid {
+    // justify-items
+    // align-items 
+
+    // justify-content
+    // align-content
+
+    // justify-self
+    // align-self
+
+    // justify-* are for ROW axis (X)
+    // align-* are for COLUMN axis (Y)
+
+    justify-items: center;
+    align-items: center;
+
+    // Shorthand for the above: (same as justify-items: center; and align-items: center;)
+    place-items: center; 
+
+    // Moving all grid items if there is available space;
+    justify-content: center;
+
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+
+    .grid-item:nth-child(1) {
+        justify-self: start;
+    }
+
+    .grid-item:nth-child(2) {
+        align-self: start;
+    }
+
+    .grid-item:nth-child(3) {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+}

@@ -19,6 +19,7 @@ Support from all major browsers (complete support for our project 🔥)
 
 
 Motto: The future is now, old man! 
+
 -----
 
 ### FR unit (fraction)
@@ -30,6 +31,22 @@ Takes two args: how many times you would like to, and what would you like to rep
 
 ### Spanning
 Acts on grid children (grid-items). Spans on cols / rows. If the spanning doesn't fit horizontally it will jump on next row.
+
+### MinMax(min, max)
+Takes two arguments, pretty explanatory, will not go lower than min or higher than max.
+
+### Template Areas
+Create explicit names for pieces of the grid. Really useful in responsive terms for moving content around.
+
+### Alignment
+justify-* are for ROW axis
+align-* are for COLUMN axis
+
+The properties themselves are similar to what Flexbox offers
+----- 
+
+## More resources
+https://css-tricks.com/snippets/css/complete-guide-grid/
 
 
 ---------------------------------------------------------------------------------------------------------------

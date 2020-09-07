@@ -1,0 +1,37 @@
+.exercise-2 {
+    min-height: 100vh;
+    max-width: 100%;
+    border: 0;
+    grid-gap: 0;
+    .grid-item {
+        border: 1px solid var(--text-color);
+    }
+
+    // Set up the marketplace global layout 🔥🔥 (see exercise.mockup.png) - header - navigation - content (responsive as well)
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 3fr 9fr;
+    grid-template-areas: 
+        "navigation header"
+        "navigation content";
+
+    // Define the areas
+    .grid-item-1 {
+        grid-area: navigation;
+    }
+
+    .grid-item-2 {
+        grid-area: header;
+    }
+
+    .grid-item-3 {
+        grid-area: content;
+    }
+
+    //Responsive as well
+    @media screen and (max-width: 768px) {
+        grid-template-areas: 
+            "navigation navigation"
+            "header header"
+            "content content";
+    }
+}

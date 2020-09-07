@@ -1,0 +1,26 @@
+.exercise-2 {
+    min-height: 100vh;
+    max-width: 100%;
+    border: 0;
+    grid-gap: 0;
+    .grid-item {
+        border: 1px solid var(--text-color);
+    }
+    ///////////////////////////////////////////////////////////////////////
+
+    // Set up the marketplace global layout 🔥🔥 (see exercise.mockup.png) - header - navigation - content (responsive as well)
+
+    // Define the areas
+    // .grid-item-1 {
+    // }
+
+    // .grid-item-2 {
+    // }
+
+    // .grid-item-3 {
+    // }
+
+    //Responsive as well
+    @media screen and (max-width: 768px) {
+    }
+}
