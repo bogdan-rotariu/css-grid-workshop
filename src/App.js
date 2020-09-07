@@ -19,7 +19,7 @@ function App() {
       </header>
       <main className='main'>
         {/* <BasicGrid style={{
-            gridTemplateColumns: '10rem 10rem 10rem 10rem 10rem',
+            gridTemplateColumns: '10rem 10rem 10rem',
           }} /> */}
 
         {/* <FractionUnitGrid /> */}
