@@ -1,5 +1,5 @@
 .exercise-1 {
-    // Create a 12 column grid, every other taking twice the free space
+    // Create a 12 column grid, every other col taking twice the free space
     grid-template-columns: repeat(6, 1fr 2fr);
     // Make the grid have 5 explicit rows, each one taking 50px in height
     grid-template-rows: repeat(5, 50px);
@@ -14,7 +14,7 @@
     .grid-item-5 {
         background: var(--primary-color);
         grid-column: span 2;
-        grid-row: span 2;
+        grid-row: span 2; 
     }
 
     // Make the 30th item take fullwidth except last column
