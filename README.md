@@ -18,7 +18,7 @@ Firefox has a better debugging tool for now. it's worth checking it out!
 Support from all major browsers (complete support for our project 🔥)
 
 
-Motto: The future is now, old man! 
+## Motto: The future is now, old man! 
 
 -----
 
@@ -43,6 +43,7 @@ justify-* are for ROW axis
 align-* are for COLUMN axis
 
 The properties themselves are similar to what Flexbox offers
+
 ----- 
 
 ## More resources
