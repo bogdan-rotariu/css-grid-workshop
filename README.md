@@ -2,7 +2,7 @@
 
 
 
-                                                    CSS GRID WORKSHOP WIP
+                                                    CSS GRID WORKSHOP
 
 ### 1. Intro
 The most powerful layout system in CSS! 
@@ -40,6 +40,7 @@ Create explicit names for pieces of the grid. Really useful in responsive terms 
 
 ### Alignment
 justify-* are for ROW axis
+
 align-* are for COLUMN axis
 
 The properties themselves are similar to what Flexbox offers
